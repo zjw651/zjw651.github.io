@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zjw651.github.io/</id>
+    <title>白小浠的博客</title>
+    <updated>2019-06-05T15:38:21.531Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zjw651.github.io/"/>
+    <link rel="self" href="https://zjw651.github.io//atom.xml"/>
+    <subtitle>归来仍是少年</subtitle>
+    <logo>https://zjw651.github.io//images/avatar.png</logo>
+    <icon>https://zjw651.github.io//favicon.ico</icon>
+    <rights>All rights reserved 2019, 白小浠的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[递归]]></title>
+        <id>https://zjw651.github.io//post/di-gui</id>
+        <link href="https://zjw651.github.io//post/di-gui">
+        </link>
+        <updated>2019-06-05T15:25:03.000Z</updated>
+        <content type="html"><![CDATA[<p>递归是一种编程模式，当一个函数调用自身时，那么它称为递归；<br>
+//我们写一个函数，计算a的b次方，用a乘以自身b次<br>
+//递归方法</p>
+<pre><code>function pow(a, b) {    
+  if(b == 1) return a;  
+  return a *= pow(a, b-1);  
+}  
+</code></pre>
+<p>//循环</p>
+<pre><code>function poe(a ,b) {  
+  let res = 1;  
+  for(let i = 0; i &lt; b; i++) {  
+    res *= a;  
+  }  
+  return res;  
+}  
+</code></pre>
+<p>最大的嵌套调用次数包括首次，称之为递归深度<br>
+任何递归都可以用循环来重写。循环变体一般更加有效。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[启]]></title>
+        <id>https://zjw651.github.io//post/qi</id>
+        <link href="https://zjw651.github.io//post/qi">
+        </link>
+        <updated>2019-06-05T15:13:38.000Z</updated>
+        <content type="html"><![CDATA[<p>我们都是少年。输时不悲，赢时不谦。手中握剑，心中有义。见海辽远，就心生豪迈。见花盛开，不掩心中喜悦。前路有险，却不知所畏。</p>
+]]></content>
+    </entry>
+</feed>
